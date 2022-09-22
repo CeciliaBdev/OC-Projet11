@@ -1,0 +1,14 @@
+.navbar {
+  /* background-color: red; */
+  display: inline;
+  padding: 32px;
+  position: absolute;
+  right: 0;
+  top: 40px;
+}
+.navbar a {
+  padding: 10px;
+  text-decoration: none;
+  font-size: 24px;
+  color: #ff6060;
+}

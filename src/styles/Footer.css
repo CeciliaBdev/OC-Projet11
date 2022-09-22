@@ -1,0 +1,17 @@
+.kasa-footer {
+  position: absolute;
+  bottom: 0;
+  width: 1440px;
+  height: 209px;
+  background-color: black;
+}
+.kasa-footer img {
+  width: 150px;
+  display: block;
+  margin: 50px auto;
+}
+.kasa-footer p {
+  color: white;
+  font-size: 24px;
+  text-align: center;
+}

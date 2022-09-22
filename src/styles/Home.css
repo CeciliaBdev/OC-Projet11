@@ -1,0 +1,20 @@
+.img-banner {
+  position: absolute;
+  width: 1240px;
+  height: 223px;
+  left: 100px;
+  top: 171px;
+  border: 1px solid black;
+  border-radius: 25px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url('../assets/img_banner.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.img-banner p {
+  color: white;
+  font-size: 48px;
+  text-align: center;
+  line-height: 120px;
+}
