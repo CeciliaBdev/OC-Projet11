@@ -18,3 +18,19 @@
   text-align: center;
   line-height: 120px;
 }
+.container_locations {
+  background-color: #f7f7f7;
+  border-radius: 25px;
+  position: relative;
+  top: 450px;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+.container_card {
+  display: grid;
+  grid-template-columns: repeat(3, 340px);
+  grid-gap: 50px;
+  justify-content: center;
+  width: 100%;
+}

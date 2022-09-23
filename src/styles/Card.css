@@ -1,0 +1,7 @@
+.card {
+  border-radius: 10px;
+}
+.card img {
+  object-fit: cover;
+  width: 340px;
+}
