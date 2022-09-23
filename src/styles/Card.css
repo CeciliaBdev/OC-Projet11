@@ -4,4 +4,12 @@
 .card img {
   object-fit: cover;
   width: 340px;
+  height: 340px;
+}
+.card p {
+  color: white;
+  position: relative;
+  /* bottom: 40px; */
+  margin: -50px 0 0 30px;
+  font-size: 18px;
 }

@@ -3,7 +3,7 @@ import Locations from '../datas/locations.json'
 import Card from './Card'
 
 function Home() {
-  console.log(Locations)
+  // console.log(Locations)
   return (
     <div>
       <div className="img-banner">
@@ -12,7 +12,7 @@ function Home() {
       <div className="container_locations">
         <div className="container_card">
           {Locations.map((location) => {
-            return <Card cover={location.cover} />
+            return <Card cover={location.cover} title={location.title} />
           })}
         </div>
       </div>
