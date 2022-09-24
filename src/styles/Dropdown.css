@@ -11,6 +11,9 @@
   background-color: #ff6060;
   color: white;
   border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .text-dropdown {
   padding: 0.5px 20px;

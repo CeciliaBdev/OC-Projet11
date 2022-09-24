@@ -13,7 +13,7 @@ function Dropdown(drop) {
   return (
     <div className="container-drop">
       <div onClick={() => handleClick()} className="dropdown-menu">
-        <p>{drop.title}</p>
+        <p>{drop.title}</p> <i className="fas fa-chevron-down"></i>
       </div>
       <div style={{ display: display }}>
         <div className="text-dropdown">
