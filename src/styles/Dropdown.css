@@ -1,0 +1,22 @@
+.container-about {
+  margin-top: 500px;
+}
+.dropdown-menu {
+  font-size: 24px;
+  position: relative;
+  /* margin-top: 500px; */
+  padding: 0.5px 20px;
+  width: 1023px;
+  margin: 40px auto 0 auto;
+  background-color: #ff6060;
+  color: white;
+  border-radius: 5px;
+}
+.text-dropdown {
+  padding: 0.5px 20px;
+  width: 1023px;
+  margin: 0 auto;
+  color: #ff6060;
+  background-color: #f7f7f7;
+  font-size: 24px;
+}
