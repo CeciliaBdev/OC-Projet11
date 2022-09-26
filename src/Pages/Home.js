@@ -18,6 +18,7 @@ function Home() {
                 cover={location.cover}
                 title={location.title}
                 id={location.id}
+                key={location.id}
               />
             )
           })}

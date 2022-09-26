@@ -22,3 +22,9 @@
 .texte {
   font-size: 36px;
 }
+.navError a {
+  color: #ff6060;
+}
+.navError {
+  margin-top: 200px;
+}
