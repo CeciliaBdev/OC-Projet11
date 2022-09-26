@@ -1,0 +1,11 @@
+.container-tags {
+  display: inline-block;
+}
+.container-tags p {
+  margin: 20px;
+  border: 1px solid #ff6060;
+  border-radius: 25px;
+  background-color: #ff6060;
+  padding: 5px 20px;
+  color: white;
+}
