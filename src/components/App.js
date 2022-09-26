@@ -4,10 +4,10 @@ import { Routes, Route } from 'react-router-dom'
 import Header from './Header'
 import NavBar from './Navbar'
 import Footer from './Footer'
-import Home from './Home'
-import About from './About'
-import Error from './Error'
-import PageLogement from './PageLogement'
+import Home from '../Pages/Home'
+import About from '../Pages/About'
+import Error from '../Pages/Error'
+import PageLogement from '../Pages/PageLogement'
 
 function App() {
   return (

@@ -1,6 +1,6 @@
 import '../styles/Error.css'
 import { Routes, Route, Link } from 'react-router-dom'
-import Home from './Home'
+import Home from '../Pages/Home'
 
 function Error() {
   return (

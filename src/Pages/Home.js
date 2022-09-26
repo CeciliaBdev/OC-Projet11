@@ -1,6 +1,6 @@
 import '../styles/Home.css'
 import Locations from '../datas/locations.json'
-import Card from './Card'
+import Card from '../components/Card'
 
 function Home() {
   // console.log(Locations)

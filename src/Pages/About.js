@@ -1,5 +1,5 @@
-import NavBar from './Navbar'
-import Dropdown from './Dropdown'
+import NavBar from '../components/Navbar'
+import Dropdown from '../components/Dropdown'
 
 import '../styles/About.css'
 
