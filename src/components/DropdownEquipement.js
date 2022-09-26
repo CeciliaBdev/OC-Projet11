@@ -28,7 +28,7 @@ function Dropdown(drop) {
         }}
         className="dropdown-menu"
       >
-        {drop.title}
+        Equipements
         <i
           style={{ transform: rotateChevron }}
           //   onClick={() => Rotate()}
@@ -37,7 +37,11 @@ function Dropdown(drop) {
       </div>
       <div style={{ display: display }}>
         <div className="text-dropdown">
-          <p>{drop.text}</p>
+          <ul>
+            {drop.equipments.map((equip) => {
+              return <li>{equip}</li>
+            })}
+          </ul>
         </div>
       </div>
     </div>
