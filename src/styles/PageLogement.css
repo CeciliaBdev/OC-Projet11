@@ -1,5 +1,7 @@
+body {
+  color: #ff6060;
+}
 .container-logement {
-  border: 1px solid black;
   position: relative;
   top: 150px;
   width: 1240px;
@@ -25,10 +27,10 @@
 .fa-chevron-right {
   right: 0;
 }
-.dropdown-menu,
+/* .dropdown-menu,
 .text-dropdown {
-  /* width: 500px; */
-}
+  width: 500px;
+} */
 .dropdown {
   width: 1240px;
   display: flex;
@@ -37,4 +39,36 @@
 .dropdown-menu:first-child,
 .text-dropdown:first-child {
   width: 560px;
+}
+.container-infos {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.container-host {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.profil img {
+  clip-path: circle();
+  width: 64px;
+}
+.name {
+  margin-right: 20px;
+  font-size: 18px;
+}
+.name p {
+  margin: 0 auto;
+  text-align: end;
+}
+
+h2 {
+  font-size: 36px;
+  margin: 10px 0;
+}
+h3 {
+  font-size: 18px;
+  margin: 0;
 }
