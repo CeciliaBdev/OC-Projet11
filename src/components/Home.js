@@ -12,7 +12,14 @@ function Home() {
       <div className="container_locations">
         <div className="container_card">
           {Locations.map((location) => {
-            return <Card cover={location.cover} title={location.title} />
+            // console.log(location.id)
+            return (
+              <Card
+                cover={location.cover}
+                title={location.title}
+                id={location.id}
+              />
+            )
           })}
         </div>
       </div>

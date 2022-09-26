@@ -7,6 +7,7 @@ import Footer from './Footer'
 import Home from './Home'
 import About from './About'
 import Error from './Error'
+import PageLogement from './PageLogement'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/About" element={<About />} />
         <Route path="/*" element={<Error />} />
+        <Route path="/PageLogement/:id" element={<PageLogement />} />
       </Routes>
       {/* <Footer /> */}
     </div>
