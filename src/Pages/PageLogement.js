@@ -4,37 +4,16 @@ import Tag from '../components/Tags'
 import Dropdown from '../components/Dropdown'
 import Stars from '../components/Stars'
 // import Error from '../Pages/Error'
-// import Lightbox from '../components/Lightbox'
+import Lightbox from '../components/Lightbox'
 import '../styles/PageLogement.css'
 
 function PageLogement() {
   let { id } = useParams()
   const logement = Locations.find((item) => item.id === id)
 
-  const Prev = () => {
-    console.log('click precedent')
-  }
-  const Suiv = () => {
-    console.log('click suivant')
-  }
-
   return (
     <div className="container-logement">
-      <div className="lightbox-img">
-        <i
-          className="fas fa-chevron-left boutonPrev"
-          onClick={() => {
-            Prev()
-          }}
-        ></i>
-        <img src={logement.pictures[0]} alt="" />
-        <i
-          className="fas fa-chevron-right boutonSuiv"
-          onClick={() => {
-            Suiv()
-          }}
-        ></i>
-      </div>
+      <Lightbox pictures={logement.pictures} />
 
       <div className="container-infos">
         {/* infos */}
