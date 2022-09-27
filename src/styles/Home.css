@@ -12,6 +12,9 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+.container-home {
+  height: 100%;
+}
 .img-banner p {
   color: white;
   font-size: 48px;
@@ -26,6 +29,7 @@
   max-width: 1240px;
   margin: 0 auto;
   padding: 50px 0;
+  height: fit-content;
 }
 .container_card {
   display: grid;

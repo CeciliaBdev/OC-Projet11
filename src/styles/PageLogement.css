@@ -27,19 +27,7 @@ body {
 .fa-chevron-right {
   right: 0;
 }
-/* .dropdown-menu,
-.text-dropdown {
-  width: 500px;
-} */
-.dropdown {
-  width: 1240px;
-  display: flex;
-  justify-content: space-between;
-}
-.dropdown-menu:first-child,
-.text-dropdown:first-child {
-  width: 560px;
-}
+
 .container-infos {
   display: flex;
   justify-content: space-between;
@@ -71,4 +59,13 @@ h2 {
 h3 {
   font-size: 18px;
   margin: 0;
+}
+.dropdown {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.dropDescription,
+.dropEquipement {
+  width: 46%;
 }

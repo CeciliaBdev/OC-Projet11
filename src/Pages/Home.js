@@ -5,7 +5,7 @@ import Card from '../components/Card'
 function Home() {
   // console.log(Locations)
   return (
-    <div>
+    <div className="container-home">
       <div className="img-banner">
         <p>Chez vous, partout et ailleurs</p>
       </div>

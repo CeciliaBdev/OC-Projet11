@@ -12,3 +12,7 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+.containerDropdown {
+  width: 1240px;
+  margin: 0 auto;
+}

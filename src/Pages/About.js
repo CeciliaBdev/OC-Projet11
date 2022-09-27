@@ -32,10 +32,18 @@ function About() {
     <div className="container-about">
       <NavBar />
       <div className="about-bg"></div>
-      <div>
+      <div className="containerDropdown">
         {/* <Dropdown /> */}
-        {values.map((dropdown) => {
-          return <Dropdown key={dropdown.id} {...dropdown} />
+        {values.map((item) => {
+          return (
+            // <Dropdown
+            //   key={key}
+            //   title={dropdown.title}
+            //   description={dropdown.description}
+            //   type="Description"
+            // />
+            <Dropdown title={item.title} text={item.text} />
+          )
         })}
       </div>
     </div>
