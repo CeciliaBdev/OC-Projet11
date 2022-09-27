@@ -1,0 +1,18 @@
+.lightbox-img img {
+  object-fit: cover;
+  width: 1240px;
+  height: 415px;
+  border-radius: 25px;
+}
+.lightbox-img i {
+  font-size: 80px;
+}
+.fa-chevron-left,
+.fa-chevron-right {
+  position: absolute;
+  color: white;
+  top: 200px;
+}
+.fa-chevron-right {
+  right: 0;
+}
