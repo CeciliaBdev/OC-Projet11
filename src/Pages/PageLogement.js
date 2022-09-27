@@ -2,7 +2,7 @@ import { useParams } from 'react-router-dom'
 import Locations from '../datas/locations.json'
 import Tag from '../components/Tags'
 import Dropdown from '../components/Dropdown'
-// import Stars from '../components/Stars'
+import Stars from '../components/Stars'
 // import Error from '../Pages/Error'
 // import Lightbox from '../components/Lightbox'
 import '../styles/PageLogement.css'
@@ -48,18 +48,23 @@ function PageLogement() {
 
         <div className="container-host">
           {/* host */}
-          <div className="name">
-            <div>
-              <p>{logement.host.name.split(' ')[0]}</p>
+          <div className="bloc-profil">
+            <div className="name">
+              <div>
+                <p>{logement.host.name.split(' ')[0]}</p>
 
-              <p>{logement.host.name.split(' ')[1]}</p>
+                <p>{logement.host.name.split(' ')[1]}</p>
+              </div>
+            </div>
+            <div className="profil">
+              <img src={logement.host.picture} alt="" />
             </div>
           </div>
-          <div className="profil">
-            <img src={logement.host.picture} alt="" />
+          {/* {logement.rating} */}
+          <div className="container-stars">
+            <Stars rating={logement.rating} />
           </div>
         </div>
-        {/* {logement.rating} */}
       </div>
       {/* drops */}
       <div className="dropdown">

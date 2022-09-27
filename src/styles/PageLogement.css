@@ -69,3 +69,16 @@ h3 {
 .dropEquipement {
   width: 46%;
 }
+
+.bloc-profil {
+  display: flex;
+  align-items: center;
+}
+.container-host {
+  display: flex;
+  flex-direction: column;
+}
+.container-stars ul {
+  display: flex;
+  flex-direction: row;
+}
