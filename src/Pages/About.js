@@ -34,7 +34,7 @@ function About() {
       <div className="about-bg"></div>
       <div className="containerDropdown">
         {/* <Dropdown /> */}
-        {values.map((item) => {
+        {values.map((item, key) => {
           return (
             // <Dropdown
             //   key={key}
@@ -42,7 +42,7 @@ function About() {
             //   description={dropdown.description}
             //   type="Description"
             // />
-            <Dropdown title={item.title} text={item.text} />
+            <Dropdown title={item.title} text={item.text} key={key} />
           )
         })}
       </div>
