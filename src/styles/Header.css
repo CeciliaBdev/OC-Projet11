@@ -17,3 +17,16 @@
 .navbar a:hover {
   text-decoration: underline;
 }
+
+@media screen and (max-width: 768px) {
+  .Head {
+    width: 90vw;
+  }
+  .kasa-banner img {
+    width: 30vw;
+  }
+  .navbar a {
+    font-size: 18px;
+    padding: 8px;
+  }
+}

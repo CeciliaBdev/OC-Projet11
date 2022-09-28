@@ -2,8 +2,6 @@
   /* position: absolute; */
   width: 1240px;
   height: 223px;
-  left: 100px;
-  top: 171px;
   border: 1px solid black;
   border-radius: 25px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
@@ -33,4 +31,27 @@
   grid-gap: 60px;
   justify-content: center;
   width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .img-banner {
+    width: 90vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+  }
+  .img-banner p {
+    text-align: left;
+    height: 100%;
+    font-size: 24px;
+    max-width: 90%;
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .img-banner p {
+    line-height: 30px;
+    height: 50%;
+    width: 57vw;
+  }
 }
