@@ -18,3 +18,12 @@
   font-size: 24px;
   text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+  .kasa-footer img {
+    width: 100px;
+  }
+  .kasa-footer p {
+    font-size: 12px;
+  }
+}

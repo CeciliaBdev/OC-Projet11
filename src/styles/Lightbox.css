@@ -11,8 +11,28 @@
 .fa-chevron-right {
   position: absolute;
   color: white;
-  top: 170px;
+  top: 350px;
 }
 .fa-chevron-right {
-  right: 0;
+  position: absolute;
+  right: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .lightbox-img img {
+    width: 90vw;
+  }
+  .fa-chevron-right {
+    position: absolute;
+    right: 40px;
+  }
+  .lightbox-img i {
+    font-size: 60px;
+  }
+  @media screen and (max-width: 425px) {
+    .fa-chevron-right {
+      position: absolute;
+      right: 25px;
+    }
+  }
 }
