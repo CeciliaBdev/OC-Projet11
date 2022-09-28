@@ -6,6 +6,7 @@
   justify-content: center;
   align-content: center;
   margin: 100px 0 0 0;
+  width: 100vw;
 }
 .kasa-footer img {
   width: 150px;

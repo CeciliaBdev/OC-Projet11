@@ -1,5 +1,5 @@
 .img-banner {
-  position: absolute;
+  /* position: absolute; */
   width: 1240px;
   height: 223px;
   left: 100px;
@@ -11,6 +11,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  margin: 80px auto 80px auto;
 }
 
 .img-banner p {
@@ -23,7 +24,7 @@
   background-color: #f7f7f7;
   border-radius: 25px;
   max-width: 1240px;
-  margin: 450px auto 0 auto;
+  margin: 0 auto;
   padding: 50px 0;
 }
 .container_card {

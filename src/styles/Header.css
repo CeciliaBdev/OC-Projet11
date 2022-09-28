@@ -1,8 +1,19 @@
-.kasa-banner{
-/* background-color: red; */
-position: absolute;
-width: 1240px;
-height: 68px;
-left: 100px;
-top: 40px;
+.Head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1240px;
+  margin: 50px auto 0 auto;
+}
+.navbar {
+  padding: 32px 0;
+}
+.navbar a {
+  padding: 20px;
+  text-decoration: none;
+  font-size: 24px;
+  color: #ff6060;
+}
+.navbar a:hover {
+  text-decoration: underline;
 }
