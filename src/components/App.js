@@ -3,7 +3,7 @@ import { Routes, Route } from 'react-router-dom'
 
 import Header from './Header'
 import NavBar from './Navbar'
-import Footer from './Footer'
+// import Footer from './Footer'
 import Home from '../Pages/Home'
 import About from '../Pages/About'
 import Error from '../Pages/Error'
@@ -20,8 +20,7 @@ function App() {
         <Route path="/*" element={<Error />} />
         <Route path="/PageLogement/:id" element={<PageLogement />} />
       </Routes>
-
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }

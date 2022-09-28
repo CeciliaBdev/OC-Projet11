@@ -6,7 +6,6 @@
   right: 0%;
   top: 0%;
   bottom: 0%;
-  font-family: 'Montserrat';
   font-style: normal;
   display: flex;
   flex-direction: column;
@@ -17,13 +16,13 @@
   font-weight: 700;
   font-size: 288px;
   line-height: 142.6%;
-  /* or 411px */
 }
 .texte {
   font-size: 36px;
 }
 .navError a {
   color: #ff6060;
+  font-size: 18px;
 }
 .navError {
   margin-top: 200px;

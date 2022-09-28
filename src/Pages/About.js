@@ -1,5 +1,6 @@
 import NavBar from '../components/Navbar'
 import Dropdown from '../components/Dropdown'
+import Footer from '../components/Footer'
 
 import '../styles/About.css'
 
@@ -46,6 +47,7 @@ function About() {
           )
         })}
       </div>
+      <Footer />
     </div>
   )
 }
