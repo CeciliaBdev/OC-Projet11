@@ -20,6 +20,7 @@ function App() {
         <Route path="/*" element={<Error />} />
         <Route path="/PageLogement/:id" element={<PageLogement />} />
       </Routes>
+
       <Footer />
     </div>
   )
