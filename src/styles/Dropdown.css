@@ -26,6 +26,7 @@
   color: #ff6060;
   background-color: #f7f7f7;
   font-size: 24px;
+  border-radius: 10px;
 }
 ul {
   list-style-type: none;

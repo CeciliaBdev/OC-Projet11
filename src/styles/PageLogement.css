@@ -5,7 +5,7 @@ body {
   position: relative;
   top: 150px;
   width: 1240px;
-  height: 1000px;
+  height: 1050px;
   margin: 0 auto;
 }
 
@@ -49,6 +49,10 @@ h3 {
 .dropDescription,
 .dropEquipement {
   width: 46%;
+}
+.dropDescription .text-dropdown,
+.dropEquipement .text-dropdown {
+  height: 250px;
 }
 
 .bloc-profil {
