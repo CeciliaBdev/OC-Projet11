@@ -1,10 +1,7 @@
 .about-bg {
-  position: absolute;
   width: 1240px;
   height: 223px;
-  left: 100px;
-  top: 171px;
-  border: 1px solid black;
+  margin: 20px auto;
   border-radius: 25px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url('../assets/about-bg.png');
@@ -15,4 +12,16 @@
 .containerDropdown {
   width: 1023px;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .about-bg {
+    width: 90vw;
+    margin: 0 auto;
+  }
+  .containerDropdown {
+    width: 85vw;
+    margin: 0 auto;
+    padding-right: 40px;
+  }
 }

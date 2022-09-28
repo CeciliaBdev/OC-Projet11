@@ -1,4 +1,3 @@
-import NavBar from '../components/Navbar'
 import Dropdown from '../components/Dropdown'
 import Footer from '../components/Footer'
 
@@ -31,20 +30,11 @@ function About() {
 
   return (
     <div className="container-about">
-      <NavBar />
       <div className="about-bg"></div>
       <div className="containerDropdown">
         {/* <Dropdown /> */}
         {values.map((item, key) => {
-          return (
-            // <Dropdown
-            //   key={key}
-            //   title={dropdown.title}
-            //   description={dropdown.description}
-            //   type="Description"
-            // />
-            <Dropdown title={item.title} text={item.text} key={key} />
-          )
+          return <Dropdown title={item.title} text={item.text} key={key} />
         })}
       </div>
       <Footer />
