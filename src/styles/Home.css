@@ -29,7 +29,7 @@
 .container_card {
   display: grid;
   grid-template-columns: repeat(3, 340px);
-  grid-gap: 50px;
+  grid-gap: 60px;
   justify-content: center;
   width: 100%;
 }
