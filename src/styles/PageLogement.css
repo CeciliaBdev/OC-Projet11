@@ -1,10 +1,11 @@
 body {
   color: #ff6060;
 }
+
 .container-logement {
   max-width: 1500px;
   width: 90vw;
-  height: fit-content;
+  height: 100%;
   margin: 20px auto;
 }
 

@@ -13,7 +13,7 @@ function PageLogement() {
   const logement = Locations.find((item) => item.id === id)
 
   return (
-    <div>
+    <div className="main">
       <div className="container-logement">
         <Lightbox pictures={logement.pictures} />
 
