@@ -1,5 +1,5 @@
 .about-bg {
-  width: 1240px;
+  /* width: 1240px; */
   height: 223px;
   margin: 20px auto;
   border-radius: 25px;
@@ -8,31 +8,22 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  width: 90vw;
 }
 .containerDropdown {
-  width: 1023px;
+  width: 75vw;
   margin: 0 auto;
 }
 @media screen and (max-width: 1024px) and (min-width: 769px) {
-  .about-bg {
-    width: 90vw;
-    margin: 0 auto;
-  }
   .containerDropdown {
-    width: 75vw;
     margin: 0 auto;
     padding-right: 40px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .about-bg {
-    width: 90vw;
-    margin: 0 auto;
-  }
   .containerDropdown {
     width: 85vw;
-    margin: 0 auto;
     padding-right: 40px;
   }
 }

@@ -1,8 +1,16 @@
 .lightbox-img img {
+  max-width: 1500px;
   object-fit: cover;
-  width: 1240px;
+  width: 90vw;
   height: 415px;
   border-radius: 25px;
+}
+.lightbox-img {
+  position: relative;
+}
+.fa-chevron-right {
+  position: absolute;
+  right: 0px;
 }
 .lightbox-img i {
   font-size: 80px;
@@ -11,12 +19,17 @@
 .fa-chevron-right {
   position: absolute;
   color: white;
-  top: 350px;
+  top: 180px;
 }
-.fa-chevron-right {
-  position: absolute;
-  right: 100px;
+
+@media screen and (min-width: 1441px) {
+  .fa-chevron-left,
+  .fa-chevron-right {
+    position: absolute;
+    top: 200px;
+  }
 }
+
 @media screen and (max-width: 1024px) and (min-width: 769px) {
   .lightbox-img img {
     width: 90vw;
@@ -27,28 +40,8 @@
   .lightbox-img img {
     width: 90vw;
   }
-  .fa-chevron-right {
-    position: absolute;
-    right: 40px;
-  }
+
   .lightbox-img i {
     font-size: 60px;
-  }
-}
-@media screen and (max-width: 425px) {
-  .fa-chevron-right {
-    position: absolute;
-    right: 25px;
-  }
-}
-@media screen and (min-width: 1441px) {
-  .fa-chevron-left,
-  .fa-chevron-right {
-    position: absolute;
-    top: 600px;
-  }
-  .fa-chevron-right {
-    position: absolute;
-    right: 660px;
   }
 }

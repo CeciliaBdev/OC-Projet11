@@ -15,10 +15,20 @@
 .card a {
   text-decoration: none;
 }
+
+@media screen and (max-width: 1429px) and (min-width: 1025px) {
+  .card img {
+    width: 30vw;
+    height: 100%;
+  }
+}
 @media screen and (max-width: 1024px) and (min-width: 769px) {
   .card img {
     width: 30vw;
     height: 100%;
+  }
+  .card p {
+    font-size: 16px;
   }
 }
 @media screen and (max-width: 768px) {
