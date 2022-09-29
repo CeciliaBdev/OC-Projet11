@@ -18,6 +18,13 @@
   text-decoration: underline;
 }
 
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .Head {
+    width: 90vw;
+    margin: 30px auto;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .Head {
     width: 90vw;

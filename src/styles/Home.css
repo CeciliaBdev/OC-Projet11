@@ -32,6 +32,23 @@
   justify-content: center;
   width: 100%;
 }
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .img-banner {
+    width: 90vw;
+  }
+  .container_locations {
+    width: 90vw;
+    padding: 10px;
+    background-color: white;
+  }
+  .container_card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    justify-content: center;
+    width: 100%;
+  }
+}
 
 @media screen and (max-width: 768px) {
   .img-banner {

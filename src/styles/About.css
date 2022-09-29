@@ -13,6 +13,17 @@
   width: 1023px;
   margin: 0 auto;
 }
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .about-bg {
+    width: 90vw;
+    margin: 0 auto;
+  }
+  .containerDropdown {
+    width: 75vw;
+    margin: 0 auto;
+    padding-right: 40px;
+  }
+}
 
 @media screen and (max-width: 768px) {
   .about-bg {

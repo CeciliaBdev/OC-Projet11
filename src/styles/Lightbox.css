@@ -17,6 +17,11 @@
   position: absolute;
   right: 100px;
 }
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .lightbox-img img {
+    width: 90vw;
+  }
+}
 
 @media screen and (max-width: 768px) {
   .lightbox-img img {
@@ -29,10 +34,21 @@
   .lightbox-img i {
     font-size: 60px;
   }
-  @media screen and (max-width: 425px) {
-    .fa-chevron-right {
-      position: absolute;
-      right: 25px;
-    }
+}
+@media screen and (max-width: 425px) {
+  .fa-chevron-right {
+    position: absolute;
+    right: 25px;
+  }
+}
+@media screen and (min-width: 1441px) {
+  .fa-chevron-left,
+  .fa-chevron-right {
+    position: absolute;
+    top: 600px;
+  }
+  .fa-chevron-right {
+    position: absolute;
+    right: 660px;
   }
 }

@@ -3,7 +3,7 @@ body {
 }
 .container-logement {
   width: 1240px;
-  height: 1050px;
+  height: fit-content;
   margin: 20px auto;
 }
 
@@ -65,11 +65,28 @@ h3 {
   display: flex;
   flex-direction: row;
 }
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
   .container-logement {
     width: 90vw;
     margin: 0 auto;
     height: fit-content;
+  }
+  .dropdown {
+    width: 96%;
+    display: flex;
+  }
+  .dropDescription .text-dropdown,
+  .dropEquipement .text-dropdown {
+    height: 400px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container-logement {
+    width: 90vw;
+    margin: 0 auto;
+    /* height: fit-content; */
   }
   .container-infos {
     display: flex;
@@ -92,11 +109,15 @@ h3 {
   .dropEquipement .text-dropdown {
     height: fit-content;
   }
-
-  @media screen and (max-width: 425px) {
-    .dropDescription,
-    .dropEquipement {
-      width: 90%;
-    }
+}
+@media screen and (max-width: 425px) {
+  .dropDescription,
+  .dropEquipement {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 1441px) {
+  .container-logement {
+    margin-top: 300px;
   }
 }
