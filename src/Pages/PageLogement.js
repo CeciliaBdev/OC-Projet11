@@ -4,7 +4,6 @@ import Footer from '../components/Footer'
 import Tag from '../components/Tags'
 import Dropdown from '../components/Dropdown'
 import Stars from '../components/Stars'
-// import Error from '../Pages/Error'
 import Lightbox from '../components/Lightbox'
 import '../styles/PageLogement.css'
 
@@ -57,7 +56,6 @@ function PageLogement() {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   )
 }

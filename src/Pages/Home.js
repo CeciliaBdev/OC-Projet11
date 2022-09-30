@@ -1,7 +1,6 @@
 import '../styles/Home.css'
 import Locations from '../datas/locations.json'
 import Card from '../components/Card'
-import Footer from '../components/Footer'
 
 function Home() {
   // console.log(Locations)
@@ -27,7 +26,6 @@ function Home() {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   )
 }

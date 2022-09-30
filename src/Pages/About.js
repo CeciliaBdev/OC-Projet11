@@ -1,5 +1,4 @@
 import Dropdown from '../components/Dropdown'
-import Footer from '../components/Footer'
 
 import '../styles/About.css'
 
@@ -37,7 +36,6 @@ function About() {
           return <Dropdown title={item.title} text={item.text} key={key} />
         })}
       </div>
-      <Footer />
     </div>
   )
 }
