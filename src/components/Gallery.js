@@ -18,25 +18,36 @@ function Gallery({ pictures }) {
     // sinon photo suivante
     index === pictures.length - 1 ? updateIndex(0) : updateIndex(index + 1)
   }
-  return (
-    <div>
-      <div className="lightbox-img">
-        <i
-          className="fas fa-chevron-left boutonPrev"
-          onClick={() => {
-            Prev()
-          }}
-        ></i>
-        <img src={pictures[index]} alt="Pictures" />
-        <i
-          className="fas fa-chevron-right boutonSuiv"
-          onClick={() => {
-            Suiv()
-          }}
-        ></i>
+  // si plusieurs photos: les flèches apparaissent
+  if (pictures.length > 1) {
+    return (
+      <div>
+        <div className="lightbox-img">
+          <i
+            className="fas fa-chevron-left boutonPrev"
+            onClick={() => {
+              Prev()
+            }}
+          ></i>
+          <img src={pictures[index]} alt="Pictures" />
+          <i
+            className="fas fa-chevron-right boutonSuiv"
+            onClick={() => {
+              Suiv()
+            }}
+          ></i>
+        </div>
       </div>
-    </div>
-  )
+    )
+  } else {
+    return (
+      <div>
+        <div className="lightbox-img">
+          <img src={pictures[index]} alt="Pictures" />
+        </div>
+      </div>
+    )
+  }
 }
 
 export default Gallery
