@@ -1,7 +1,7 @@
-import '../styles/Dropdown.css'
+import '../styles/Collapse.css'
 import { useState } from 'react'
 
-function Dropdown({ title, text }) {
+function Collapse({ title, text }) {
   const [display, setDisplay] = useState('none')
   function handleClick() {
     if (display === 'none') {
@@ -18,15 +18,6 @@ function Dropdown({ title, text }) {
       setRotateChevron('rotate(0)')
     }
   }
-  // function listEquipment(tab) {
-  //   return (
-  //     <ul>
-  //       {tab.map((item) => {
-  //         ;<li>{item}</li>
-  //       })}
-  //     </ul>
-  //   )
-  // }
 
   return (
     <div className="container-drop">
@@ -40,15 +31,12 @@ function Dropdown({ title, text }) {
         {title}
         <i
           style={{ transform: rotateChevron }}
-          //   onClick={() => Rotate()}
           className="fas fa-chevron-down"
         ></i>
       </div>
       <div style={{ display: display }}>
         <div className="text-dropdown">
-          {/* <p>{drop.text}</p> */}
-          {/* condition text si un objet => fonction listEquipment sinon texte classique*/}
-          {/* {typeof text === 'object' ? listEquipment(text) : <p>{text}</p>} */}
+          {/* condition mise en forme du dropdown */}
           {typeof text === 'string' ? (
             <p>{text}</p>
           ) : (
@@ -63,4 +51,4 @@ function Dropdown({ title, text }) {
     </div>
   )
 }
-export default Dropdown
+export default Collapse

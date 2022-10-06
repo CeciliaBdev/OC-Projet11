@@ -1,7 +1,7 @@
-import '../styles/Lightbox.css'
+import '../styles/Gallery.css'
 import { useState } from 'react'
 
-function Lightbox({ pictures }) {
+function Gallery({ pictures }) {
   const [index, updateIndex] = useState(0)
   // console.log(pictures)
   const Prev = () => {
@@ -27,7 +27,7 @@ function Lightbox({ pictures }) {
             Prev()
           }}
         ></i>
-        <img src={pictures[index]} alt="" />
+        <img src={pictures[index]} alt="Pictures" />
         <i
           className="fas fa-chevron-right boutonSuiv"
           onClick={() => {
@@ -39,4 +39,4 @@ function Lightbox({ pictures }) {
   )
 }
 
-export default Lightbox
+export default Gallery

@@ -1,10 +1,9 @@
 import { useParams, Navigate } from 'react-router-dom'
 import Locations from '../datas/locations.json'
-import Footer from '../components/Footer'
 import Tag from '../components/Tags'
-import Dropdown from '../components/Dropdown'
+import Collapse from '../components/Collapse'
 import Stars from '../components/Stars'
-import Lightbox from '../components/Lightbox'
+import Gallery from '../components/Gallery'
 import '../styles/PageLogement.css'
 
 function PageLogement() {
@@ -19,7 +18,7 @@ function PageLogement() {
     return (
       <div className="main">
         <div className="container-logement">
-          <Lightbox pictures={logement.pictures} />
+          <Gallery pictures={logement.pictures} />
 
           <div className="container-infos">
             {/* infos */}
@@ -54,10 +53,10 @@ function PageLogement() {
           {/* drops */}
           <div className="dropdown">
             <div className="dropDescription">
-              <Dropdown title="Description" text={logement.description} />
+              <Collapse title="Description" text={logement.description} />
             </div>
             <div className="dropEquipement">
-              <Dropdown title="Equipements" text={logement.equipments} />
+              <Collapse title="Equipements" text={logement.equipments} />
             </div>
           </div>
         </div>

@@ -1,4 +1,4 @@
-import Dropdown from '../components/Dropdown'
+import Collapse from '../components/Collapse'
 
 import '../styles/About.css'
 
@@ -33,7 +33,7 @@ function About() {
       <div className="containerDropdown">
         {/* <Dropdown /> */}
         {values.map((item, key) => {
-          return <Dropdown title={item.title} text={item.text} key={key} />
+          return <Collapse title={item.title} text={item.text} key={key} />
         })}
       </div>
     </div>
