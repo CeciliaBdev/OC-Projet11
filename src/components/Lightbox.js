@@ -3,9 +3,9 @@ import { useState } from 'react'
 
 function Lightbox({ pictures }) {
   const [index, updateIndex] = useState(0)
-  console.log(pictures)
+  // console.log(pictures)
   const Prev = () => {
-    console.log('click precedent')
+    // console.log('click precedent')
     // si index => 1er element
     // revient à la derniere photo
     // sinon photo precedente
